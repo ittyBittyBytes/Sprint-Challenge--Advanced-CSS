@@ -1,3 +1,17 @@
+.button {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+}
+.button:hover {
+  color: green;
+  border: 1px solid green;
+  background-color: white;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,6 +174,33 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.top {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #dedfe0;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 10px;
+  background-color: #dedfe0;
+}
+nav a {
+  display: flex;
+  margin-right: 20px;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.spaceTop {
+  display: flex;
+  width: 100%;
+  font-size: 4rem;
+  padding: 10px;
+  justify-content: center;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +210,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.topPic {
+  display: flex;
+  justify-content: center;
+}
+.topPic img {
+  border-radius: 5px;
+  width: 95%;
 }
 .home .intro h2 {
   padding: 15px;
