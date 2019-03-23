@@ -231,6 +231,8 @@ p {
   margin: 0 auto;
 }
 .top {
+  position: fixed;
+  opacity: 0.6;
   width: 800px;
   display: flex;
   flex-wrap: wrap;
@@ -256,6 +258,13 @@ nav a {
   font-size: 4rem;
   padding: 10px;
   justify-content: center;
+}
+a {
+  color: black;
+  transition: color 300ms ease;
+}
+a:hover {
+  color: #8f39e5;
 }
 footer {
   color: #22283B;
