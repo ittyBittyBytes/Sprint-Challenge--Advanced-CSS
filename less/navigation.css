@@ -1,0 +1,36 @@
+.top {
+  position: fixed;
+  opacity: 0.6;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #dedfe0;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 10px;
+  background-color: #dedfe0;
+}
+nav a {
+  display: flex;
+  margin-right: 20px;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.spaceTop {
+  display: flex;
+  width: 100%;
+  font-size: 4.0rem;
+  padding: 10px;
+  justify-content: center;
+}
+a {
+  color: black;
+  transition: color 300ms ease;
+}
+a:hover {
+  color: #8f39e5;
+}
